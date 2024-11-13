@@ -10,4 +10,9 @@ public abstract class PlayerStats : MonoBehaviour
     [SerializeField] protected int Defence;
     [SerializeField] protected float Speed;
     [SerializeField] protected float Luck;
+
+    protected abstract private void attack();
+
+
+
 }
